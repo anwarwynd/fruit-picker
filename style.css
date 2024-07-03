@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f3b3fd;
+  /* overflow: hidden; */
+  font-family: "Just Me Again Down Here", cursive;
+  font-size: 30px;
+  border: 0;
+
+}
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.img-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 230px;
+    margin-left: 20px;
+    padding: 10px 20px;
+
+    
+}
+.container {
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#ff {
+  width: 594px;
+  height: 225px;
+  transform: rotate(76deg);
+  margin-left: -85px;
+ 
+}
+
+
+#matte {
+    width: 750px;
+    height: auto;
+    margin-top: -265px;
+    margin-left: 298px;
+    opacity: 0;
+    transform: translate(30px);
+    animation: moveup 1s linear forwards;
+}
+@keyframes moveup{
+  100%{
+    opacity: 1;
+  }
+}
+
+
+#welcome {
+  font-family: "Just Me Again Down Here", cursive;
+  font-size: 61px;
+  font: normal;
+  width: 290px;
+  margin-top: -352px;
+  margin-left: -375px;
+  opacity: 0;
+  transform: translate(30px);
+  animation: moveup 1s linear forwards;
+}
+
+#name {
+  border-radius: 37px;
+  padding: 20px 30px;
+  border: 0;
+  background-color: #f7c8ff;
+  
+  margin-top: 41px;
+}
+
+#fruit {
+  border-radius: 20px;
+  padding: 16px 49px;
+  border: 0;
+  background-color: #f7c8ff;
+ 
+  margin-top: 39px;
+  margin-left: 13px;
+  z-index: 1;
+}
+
+button {
+  border-radius: 21px;
+  padding: 15px 66px;
+  border: 0;
+  background-color: #e892f5;
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 71px;
+  z-index: 1;
+}
+ 
+
+#bot {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#message{
+
+  margin-top: 69px;
+  margin-left: 69px;
+  font-size: 50px;
+  background-color: #e892f5;
+  border-radius: 33px;
+  padding: 2px 36px;
+
+
+}
